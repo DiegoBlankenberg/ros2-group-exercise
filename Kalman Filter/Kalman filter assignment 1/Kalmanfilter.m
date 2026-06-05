@@ -2,7 +2,7 @@
 % Only measure position
 % delta t=0.033s
 % H=[1 0];
-% standard deviation of the random acceleration is SDg=1% og 9.81
+% standard deviation of the random acceleration is SDg=1% of 9.81
 % Measurement uncertainty is SDm=0.1 m
 % Initial state is x0=[0;0]
 % P0=zeros(2,2)

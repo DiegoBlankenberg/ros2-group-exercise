@@ -1,0 +1,3 @@
+Use this script for my Raspberry pi camera module V2
+Background:My robot needs to detect a line on the floor using only the camera, no line-following sensor. The line is made of masking tape on a dark floor. My goal is to develop an image processing pipeline that reliably segments the tape from the background, and then use that to guide the robot.
+I will be working in matlab first then port my solution to run as a ROS2 node on the Raspberry pi
