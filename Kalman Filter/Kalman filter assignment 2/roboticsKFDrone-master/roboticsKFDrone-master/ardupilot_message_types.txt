@@ -1,0 +1,104 @@
+######################################################################
+# ACC (Accelerometer data) fields:
+#   TimeUS: Timestamp (microseconds)
+#   AccX: X-axis acceleration (m/s²)
+#   AccY: Y-axis acceleration (m/s²)
+#   AccZ: Z-axis acceleration (m/s²)
+#   Clip0: Number of times X-axis has clipped
+#   Clip1: Number of times Y-axis has clipped
+#   Clip2: Number of times Z-axis has clipped
+#
+# GPS (Global Positioning System) fields:
+#   TimeUS: Timestamp (microseconds)
+#   Status: GPS status (0 = no fix, 1 = 2D fix, 2 = 3D fix)
+#   GMS: GPS milliseconds
+#   GWk: GPS week
+#   NSats: Number of satellites
+#   HDop: Horizontal dilution of precision
+#   Lat: Latitude (degrees * 1E7)
+#   Lng: Longitude (degrees * 1E7)
+#   Alt: Altitude (meters * 100, above MSL)
+#   Spd: Ground speed (cm/s)
+#   GCrs: Ground course (degrees * 100)
+#   VZ: Vertical speed (cm/s, positive down)
+#   U: GPS update count
+#   Yaw: Yaw angle from GPS (degrees * 100)
+#   YawStd: Yaw standard deviation (degrees * 100)
+######################################################################
+######################################################################
+# NOTE: Each message type below may contain multiple fields (variables).
+# For example, ACC includes AccX, AccY, AccZ; GPS includes Lat, Lng, Alt, Sats, etc.
+# The exact fields depend on ArduPilot version and log settings.
+######################################################################
+ACC   – Accelerometer data
+AHR2  – Attitude and heading reference system (quaternion and Euler angles)
+ARM   – Arming/disarming events
+ATT   – Attitude (roll, pitch, yaw)
+AUXF  – Auxiliary function outputs
+BARO  – Barometer sensor data
+BAT   – Battery status and voltage
+CANS  – CAN bus status
+CTRL  – Control system status
+CTUN  – Control tuning (altitude, throttle, etc.)
+DCM   – Direction Cosine Matrix (attitude solution)
+DSF   – Dataflash status
+DU32  – User-defined 32-bit data
+EAHR  – Extended attitude and heading reference
+ESC   – Electronic speed controller data
+EV    – Event log (various events)
+FILE  – File operations/events
+FMT   – Format definition for log messages
+FMTU  – User-defined format
+GPA   – GPS accuracy
+GPS   – GPS position, velocity, and status
+GYR   – Gyroscope data
+HEAT  – Heater status (e.g., for sensors)
+IMU   – Inertial Measurement Unit (accel, gyro, mag)
+IOMC  – Input/Output microcontroller status
+MAG   – Magnetometer data
+MAV   – MAVLink message
+MAVC  – MAVLink command
+MCU   – Microcontroller status
+MODE  – Flight mode changes
+MOTB  – Motor balance
+MSG   – Text message
+MULT  – Multiplexer status
+ORGN  – Origin (home position)
+PARM  – Parameter value
+PIDA  – PID controller A
+PIDE  – PID controller E
+PIDN  – PID controller N
+PIDP  – PID controller P
+PIDR  – PID controller R
+PIDY  – PID controller Y
+PM    – Performance monitor (CPU, memory, etc.)
+POS   – Position estimate (EKF or other)
+POWR  – Power system status
+PSCD  – Position controller D
+PSCE  – Position controller E
+PSCN  – Position controller N
+RAD   – Radio status
+RATE  – Rate controller status
+RCI2  – RC input channel 2
+RCIN  – RC input channels
+RCO2  – RC output channel 2
+RCOU  – RC output channels
+SRTL  – Smart RTL (Return to Launch)
+STAK  – Stack usage
+TERR  – Terrain data
+TSYN  – Time synchronization
+UNIT  – Unit information
+VER   – Firmware version
+VIBE  – Vibration levels
+XKF1  – EKF state and innovation data (group 1)
+XKF2  – EKF state and innovation data (group 2)
+XKF3  – EKF state and innovation data (group 3)
+XKF4  – EKF state and innovation data (group 4)
+XKF5  – EKF state and innovation data (group 5)
+XKFS  – EKF status summary
+XKQ   – EKF quaternion state
+XKT   – EKF terrain estimate
+XKV1  – EKF velocity and variance data (group 1)
+XKV2  – EKF velocity and variance data (group 2)
+XKY0  – EKF yaw and related diagnostics (group 0)
+XKY1  – EKF yaw and related diagnostics (group 1)
